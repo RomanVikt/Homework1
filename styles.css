@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px); 
+}
+
+.top {
+  height: 800px;  
+  background-color: #E1FF8F;
+  background-image: url(stars.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top__content {
+  padding-top: 196px;
+  padding-left: 120px;
+  gap: 48px;
+}
+
+.top__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #202027;
+}
+
+.top__text {
+  padding-top: 24px;  
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.top__text_1 {
+  font-weight: 600;
+}
+
+.top__button {
+  margin-top: 48px;
+  width: 247px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 60px;
+  background-color: #202027;
+  border: 1px solid #202027;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.01px;
+  text-align: center;
+}
+
+.top__button:hover {
+  background-color: #FFFFFF;
+  color: #202027;
+  cursor: pointer;
+}
+
+.top__img {
+  position: absolute;
+}
+
+.top__polosa {
+  height: 90px;
+  background-color: #bcec30;
+  margin-top: 156px;
+}
+
+.about {
+  height: 1470px;  
+  background-image: url(stars2.png);
+  background-repeat: no-repeat;
+  background-color: #202027;
+}
+
+.about__box {
+  padding-top: 94px;
+}
+
+.about__title {
+  width: 314px;
+  height: 78px;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.02px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.about__text {
+  width: 788px;
+  height: 96px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+
+.about__cart {
+  margin-top: 72px;
+  display: flex;
+  gap: 32px;
+}
+
+.about__spec {
+  text-decoration: none;
+}
+
+.cart__link {
+  display: flex;
+  flex-direction: column;  
+  gap: 32px;
+}
+
+.cart__link_small {
+  height: 473px;
+  border-radius: 30px;
+  background: #FFFFFF;
+}
+
+.cart__link_small-2 {
+  height: 512px;
+}
+
+.cart__link_img {
+  width: 378px;
+  border-radius: 30px;
+  }
+
+.cart__link_img:hover {    
+  transform: scale(1.4);       
+  rotate: 10deg;     
+  border: 0.5px solid #202027;    
+}
+
+.cart__link_text {
+  width: 108px;
+  border-radius: 53px;  
+  background-color: #F7F7F7;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #202027;
+  padding-left: 16px; 
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  margin-left: 32px;
+  margin-top: 32px;  
+}
+
+.cart__link_title {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-top: 16px;
+  margin-left: 32px;  
+}
+
+.cart__link_big {
+  height: 551px;
+  border-radius: 30px;
+  background: #FFFFFF;
+}
+
+.cart__link_big-2 {
+  height: 512px;
+}
+
+.mini {
+  height: 3500px;
+  background-image: url(stars3.png);
+  background-repeat: no-repeat;
+  background-color: #202027;
+}
+
+.mini__title {
+  padding-left: 119px;
+  padding-bottom: 72px;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.mini__box_cart {
+  margin-bottom: 32px;  
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.mini__box_cart-2 {
+  justify-content: flex-start;
+}
+
+.mini__box_opis {
+  padding-left: 48px;
+}
+
+.mini__box_title {
+  padding-top: 48px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  color: #202027;
+}
+
+.mini__box_text {
+  padding-top: 24px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #202027;
+}
+
+.mini__box_button {
+  margin-top: 36px;
+  width: 247px;
+  height: 66px;
+  padding: 16px 28px 16px 28px;
+  gap: 10px;
+  border-radius: 60px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #202027;
+}
+
+.mini__box_img:hover {    
+  transform: scale(1.4);
+  transition: transform 2s;    
+  rotate: 10deg; 
+  border-color: transparent;
+}
+
+.footer {
+  height: 150px;
+  background-color: #bcec30;
+}
+
+.footer__text {  
+  padding-top: 61px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+}
+
+
