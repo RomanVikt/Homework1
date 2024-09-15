@@ -9,13 +9,15 @@
 }
 
 .top {
-  height: 710px;  
+  display: flex;
+  height: 800px;  
   background-color: #E1FF8F;
   background-image: url(stars.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden;  
+  overflow: hidden; 
+  flex-direction: column; 
 }
 
 .top__content {
@@ -75,7 +77,9 @@
   height: 90px;
   background-color: #bcec30;
   align-items: center;
-  gap: 51px;  
+  gap: 51px;
+  overflow: hidden;   
+  margin-top: auto;  
 }
 
 .top__polosa_text {
