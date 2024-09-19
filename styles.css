@@ -119,9 +119,9 @@
 
 .about {
   height: 1470px;
-  background-image: url(stars2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(img_star/Group1.png), url(img_star/Group2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, top right;
   background-color: #202027;
 }
 
@@ -183,9 +183,15 @@
   border-radius: 30px;
 }
 
-.cart__link_img:hover {
-  transform: scale(1.4);
-  rotate: 10deg;
+.cart__link_small:hover {
+  transform: scale(1.15);
+  transition-duration: 2s;
+  border: 0.5px solid #202027;
+}
+
+.cart__link_big:hover {
+  transform: scale(1.15);
+  transition-duration: 2s;
   border: 0.5px solid #202027;
 }
 
@@ -295,17 +301,15 @@
   background-color: #202027;
 }
 
+.mini__box_button:hover {
+  color: #202027;
+  background-color: #FFFFFF;
+}
+
 .mini__box_img {
   width: 600px;
   height: 500px;
   border-radius: 30px;
-}
-
-.mini__box_img:hover {
-  transform: scale(1.4);
-  transition: transform 2s;
-  rotate: 10deg;
-  border-color: transparent;
 }
 
 .footer {

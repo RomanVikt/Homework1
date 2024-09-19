@@ -31,8 +31,8 @@ alert(result);
 
 /* Шестое задание */
 
-let a = 9;
-let b = 2;
+let k = 9;
+let l = 2;
 let ostatok = 9 % 2;
 alert(ostatok);
 
@@ -62,5 +62,121 @@ const user = {
 
 /* Десятое задание */
 
-const name = prompt("Как тебя зовут?");
-alert("Привет , " + name + " !");  // Не пойму почему перечеркивает name, в codepen все работает!
+const username = prompt("Как тебя зовут?");
+alert("Привет , " username " !");  
+
+
+/* Задания по условному ветвлению */
+
+/* Первое задание */
+
+let password = 'пароль'
+
+let question = prompt('Введите пароль');
+
+if (question == password) {
+  alert('Пароль введен верно');
+} else {
+  alert('Пароль введен неправильно');
+} 
+
+/* Второе задание */
+
+let с = 7;
+
+if (с > 0 && с <10) {
+alert('Верно');
+} else {
+alert('Неверно');
+}
+
+/* Третье задание */
+
+let d = Number(prompt('Введите цифру больше ста'));
+
+let e = Number(prompt('Еще одну'));
+
+if ( d>100 || e>100) {
+  alert('верно');
+} else {
+ alert('неверно');
+} 
+
+/* Четвертое задание */
+
+let a = '2';
+
+let b = '3';
+
+// Код выше изменять менять нельзя. Чтобы решить задачу исправьте код ниже:
+a = Number( a );
+
+b = Number( b ); 
+
+alert( a + b );
+
+/* Пятое задание */
+
+let monthNumber = prompt("Введите порядковый номер месяца");
+switch (monthNumber) {
+  case '1':
+    alert('Зимний месяц');
+    break;
+  case '2':
+    alert('Зимний месяц');
+    break;
+ case '12':
+    alert('Зимний месяц');
+    break;    
+  case '3': 
+    alert('Весенний месяц');
+    break;
+  case '4': 
+    alert('Весенний месяц');
+    break;
+  case '5': 
+    alert('Весенний месяц');
+    break;  
+  case '6':
+    alert('Летний месяц');
+    break;
+  case '7':
+    alert('Летний месяц');
+    break;
+  case '8':
+    alert('Летний месяц');
+    break;
+  case '9':
+    alert('Осенний месяц');
+    break;
+  case '10':
+    alert('Осенний месяц');
+    break; 
+  case '11':
+    alert('Осенний месяц');
+    break;      
+default:
+    alert('Ошибка ввода');
+}
+
+/* Хотел сделать через или(||) , но не вышло 
+
+let monthNumber = promp("Введите порядковый номер месяца");
+switch (monthNumber) {
+  case '1' || '2' || '12':
+    alert('Зимний месяц');
+    break;
+  case '3' || '4' || '5': 
+    alert('Весенний месяц');
+    break;
+    case '6' || '7' || '8':
+    alert('Летний месяц');
+    break;
+  case '9' || '10' || '11':
+    alert('Осенний месяц');
+    break;
+  default:
+    alert('Ошибка ввода');
+}
+
+*/
