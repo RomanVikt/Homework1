@@ -48,7 +48,7 @@
             height: 19px;
         }
 
-        &__button {
+        &__btn {
             margin: 0 auto;
             display: block;
             margin-top: 36px;
@@ -57,7 +57,7 @@
             line-height: 23px;            
         }
 
-        &__button:hover {
+        &__btn:hover {
         background-color: #202027;
         color: #FFFFFF;
         }    
@@ -68,8 +68,9 @@
     }
 
     .mini {
-        height: 3740px;    
-
+        height: 3740px;   
+        background-image: none; 
+        
         &__title {
             padding-top: 48px;
             padding-bottom: 48px;
@@ -78,33 +79,33 @@
             line-height: 49px;          
         }
 
-        &__box_cart {            
+        &__cart {            
             flex-direction: column-reverse;
         }  
 
-        &__box_cart-2 {
+        &__cart-2 {
             display: block;
         }      
         
-        &__box_opis {
+        &__opis {
             padding-left: 29px;
         }
 
-        &__box_title {
+        &__opis_title {
             padding-top: 29px;
             font-size: 32px;
             font-weight: 700;
             line-height: 39px;            
         }
 
-        &__box_text {  
+        &__text {  
             padding-top: 16px;                  
             font-size: 16px;
             font-weight: 400;
             line-height: 19px;            
         }
 
-        &__box_button { 
+        &__box_btn { 
             margin-top: 32px;
             margin-bottom: 32px;           
             width: 285px;
@@ -114,7 +115,7 @@
             line-height: 23px;            
         }
 
-        .mini__box_img {
+        &__img {
             width: 100%;
             height: auto;
         }
