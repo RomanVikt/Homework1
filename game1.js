@@ -1,7 +1,6 @@
-function game1() {
-  const min = 1;
-  const max = 100;
-  const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+  let min = 1;
+  let max = 100;
+  let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
     
   alert (randomNum); //Загаданное число
     
@@ -16,7 +15,5 @@ function game1() {
   else if (userNum < randomNum) {
     alert("Загаданное число больше");
     }
-  else (userNum === randomNum) {
-    alert("Угадал.Молодец!");
-    }
-}
+  else alert("Угадал.Молодец!");
+    
