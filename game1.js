@@ -1,19 +1,14 @@
-  let min = 1;
-  let max = 100;
-  let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
-    
-  alert (randomNum); //Загаданное число
-    
-  let userNum = +prompt("Угадай число от 1 до 100! Укажи свой вариант:");
-    
-  if (userNum > 100 || userNum < 1) {
-    alert("Введите коректное число");
-    }
-  else if (userNum > randomNum) {
-    alert("Загаданное число меньше"); 
-    }
-  else if (userNum < randomNum) {
-    alert("Загаданное число больше");
-    }
-  else alert("Угадал.Молодец!");
-    
+function game1() {   
+  const a = Math.floor(Math.random() * 100 + 1);
+  let num = 0; // объявить переменную до цикла
+  do {
+      num = prompt('Игра: отгадай число от 1 до 100', 0);
+      if (num == a) {
+          alert('Угадал!');
+      } else if (num > a) {
+          alert('Твой ответ больше задуманного числа! Попробуй еще!', '');
+      } else if (num < a) {
+          alert('Твой ответ меньше задуманного числа! Попробуй еще!', '');
+      }
+  } while (num != a && num); // иначе здесь она не видна
+}
