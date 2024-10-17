@@ -10,5 +10,5 @@ function game1() {
       } else if (num < a) {
           alert('Твой ответ меньше задуманного числа! Попробуй еще!', '');
       }
-  } while (num != a && num); // иначе здесь она не видна
+  } while (num != a && num);
 }
