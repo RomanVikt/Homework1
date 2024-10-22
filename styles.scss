@@ -186,13 +186,13 @@
   .about__link_small:hover {        
     transform: scale(1.15); 
     transition-duration: 2s;  
-    border: 0.5px solid #202027;    
+    border: outline solid #202027;    
   }
 
   .about__link_big:hover {    
     transform: scale(1.15); 
     transition-duration: 2s;   
-    border: 0.5px solid #202027;    
+    border: outline solid #202027;    
   }
   
   .about__link_text {
@@ -234,7 +234,7 @@
   
   .mini {
     height: 3500px;
-    background-image: url(stars3.png);
+    background-image: url(img_star/stars3.png);
     background-repeat: no-repeat;
     background-color: #202027;
     background-position: right;
