@@ -70,6 +70,15 @@
   .top__img {
     position: absolute;
   }
+
+  @keyframes scroll-left {
+    from {
+      transform: translateX(0%);
+    }    
+    to {
+      transform: translateX(-26%);
+    }
+  }
   
   .top__polosa {
     display: flex;
@@ -80,8 +89,9 @@
     gap: 51px;
     overflow: hidden;   
     margin-top: auto;  
+    animation: scroll-left 10s linear infinite;
   }
-  
+   
   .top__polosa_text {
     height: 33px;
     font-family: Montserrat;
@@ -239,6 +249,7 @@
     background-color: #202027;
     background-position: right;
   }
+  
   
   .mini__title {
     padding-bottom: 72px;

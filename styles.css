@@ -71,6 +71,14 @@
   position: absolute;
 }
 
+@keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-40%);
+  }
+}
 .top__polosa {
   display: flex;
   width: 3220px;
@@ -80,6 +88,7 @@
   gap: 51px;
   overflow: hidden;
   margin-top: auto;
+  animation: scroll-left 28s linear infinite;
 }
 
 .top__polosa_text {

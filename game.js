@@ -123,3 +123,22 @@ function game5() {
         alert('Вы победили!😁');} else {
         alert('Компьютер победил!');}
 }
+
+
+function game6() {
+    let letters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
+    let randomColor = "#";
+    for (let i = 0; i < 6; i++) {
+    randomColor += letters[Math.floor(Math.random() * 16)];}
+    return randomColor;
+    }     
+
+    const button = document.getElementById('btn_game6');
+    
+    button.addEventListener('click', function () {
+        const miniEl = document.querySelector('.mini');
+        miniEl.style.backgroundColor = game6();
+        });                                              
+   
+
+    
