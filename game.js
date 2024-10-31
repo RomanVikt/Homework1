@@ -37,11 +37,11 @@ function game2() {
     };
  
     if (ranOper == 2) {
-       d = prompt("Сколько будет " + a + " - " + b + "?"), с = a - b;
+       d = prompt("Сколько будет " + a + " - " + b + "?"), c = a - b;
     };
  
     if (ranOper == 3) {
-       d = prompt("Сколько будет " + a + " * " + b + "?"), с = a * b;
+       d = prompt("Сколько будет " + a + " * " + b + "?"), c = a * b;
     };
  
     if (ranOper == 4) {
