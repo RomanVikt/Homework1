@@ -1,0 +1,136 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 700px;
+        background-image: url(img_star/Star_mob.bmp);
+    
+        &__content{
+            padding-top: 147px;
+        }
+
+        &__title {
+            padding-left: 23px;
+            padding-right: 23px;
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+        }
+
+        &__text {            
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: center;
+        }
+
+        &__polosa {
+            width: 1717px;
+            height: 51px;           
+            gap: 27px;            
+        }
+
+        &__polosa_text {
+            height: 18px;            
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18px;                        
+        } 
+
+        &__polosa_text-1 {
+            padding-left: 24px;
+          }
+
+        &__polosa_star {
+            width: 19px;
+            height: 19px;
+        }
+
+        &__btn {
+            margin: 0 auto;
+            display: block;
+            margin-top: 36px;
+            width: 285px;
+            font-size: 16px;
+            line-height: 23px;            
+        }
+
+        &__btn:hover {
+        background-color: #202027;
+        color: #FFFFFF;
+        }    
+    }
+
+    .about {
+        display: none;
+    }
+
+    .mini {
+        height: 3740px;   
+        background-image: none; 
+        
+        &__title {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;          
+        }
+
+        &__cart {            
+            flex-direction: column-reverse;
+        }  
+
+        &__cart_mob {
+            display: block;
+        }      
+        
+        &__opis {
+            padding-left: 29px;
+        }
+
+        &__game {
+            padding-top: 29px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;            
+        }
+
+        &__text {  
+            padding-top: 16px;                  
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;            
+        }
+
+        &__btn { 
+            margin-top: 32px;
+            margin-bottom: 32px;           
+            width: 285px;
+            height: 55px;         
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 23px;            
+        }
+
+        &__img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .footer {
+        height: 100px;
+
+        &__text  {
+            padding-top: 40px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
+}
