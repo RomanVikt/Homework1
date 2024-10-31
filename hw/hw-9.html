@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+</head>
+<body>
+    
+    <h1 id="title1">Первое задание</h1>
+    <button class="btn__text-1">Скрытие и показ текста.Задание 1</button>
+    
+    <p class="text-2">Второе задание</p>
+    <button class="btn__text-2">Изменение стиля элемента.Задание 2</button>
+    
+    <h1 id="title3">Третье задание</h1>
+    <button class="btn__text-3">Динамическое изменение текста.Задание 3</button>
+    
+    <h2 class="description4">Четвертое задание</h2>
+    <h2 class="description4">Четвертое задание</h2>
+    <h2 class="description4">Четвертое задание</h2>
+    <h2 class="description4">Четвертое задание</h2>
+    <button class="btn__text-4">Поиск и изменение элементов по классу.Задание 4</button>
+    
+    <p class="description5">Пятое задание</p>
+    <p class="description5">Пятое задание</p>
+    <p class="description0">Пятое задание</p>
+    <p class="description5">Пятое задание</p>
+    <button class="btn__text-5">Работа с querySelectorAll.Задание 5</button>
+
+    <div class="div6">
+        <p class="description6">Шестое задание</p>
+        <p class="description6">Шестое задание</p>
+    </div>
+    <button class="btn__text-6">Добавление нового элемента в DOM.Задание 6</button>
+    
+    <p class="description7">Седьмое задание(первая строка)</p>
+    <p class="description7">Седьмое задание(вторая строка)</p>
+    <p class="description0">Седьмое задание(третья строка)</p>
+    <p class="description7">Седьмое задание(четвертая строка)</p>
+    <button class="btn__text-7">Удаление элемента.Задание 7</button>
+    <script>
+
+        // Первое задание
+
+        const text1 = document.querySelector('#title1');
+        const button1 = document.querySelector('.btn__text-1');
+        button1.addEventListener('click', function() {             
+            if (text1.style.display == "none"){
+            text1.style.display = "block";
+            } else {
+            text1.style.display = "none"} 
+        });
+
+        // Второе задание
+        const text2 = document.querySelector('.text-2');
+        const button2 = document.querySelector('.btn__text-2');
+        button2.addEventListener('click', function() {
+            text2.style.color = 'blue'
+        });
+
+        // Третье задание
+
+        const text3 = document.querySelector('#title3');
+        const button3 = document.querySelector('.btn__text-3'); 
+        button3.addEventListener('click', function() { 
+            text3.textContent = 'Привет, мир!' 
+        });
+
+        // Четвертое задание
+
+        const text4 = document.querySelectorAll('.description4')
+        const button4 = document.querySelector('.btn__text-4');        
+        button4.addEventListener('click', function() { 
+            text4.forEach(element4 => {
+                element4.textContent = 'Измененный текст'}) 
+        }); 
+
+        // Пятое задание
+
+        const text5 = document.querySelectorAll('.description5')
+        const button5 = document.querySelector('.btn__text-5');        
+        button5.addEventListener('click', function() { 
+            text5.forEach(element5 => {
+                element5.textContent = 'Новый текст'}) 
+        }); 
+
+        // Шестое задание
+
+        const div6 = document.querySelector('.div6');
+        const button6 = document.querySelector('.btn__text-6');
+        button6.addEventListener('click', function() { 
+            const text6 = document.createElement('p');
+            text6.textContent = 'Новый текст';
+            text6.classList.add('text');
+            div6.append(text6); 
+        })
+
+        // Седьмое задание
+
+        const text7 = document.querySelector('.description7');        
+        const button7 = document.querySelector('.btn__text-7'); 
+        button7.addEventListener('click', function() { 
+            text7.remove() 
+        });    
+
+    </script>
+</body>
+</html>
