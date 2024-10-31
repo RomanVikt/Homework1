@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   .center {
     padding-left: calc(50% - 600px);
@@ -206,7 +210,7 @@
   }
   
   .about__link_text {
-    width: 108px;
+    width: 80px;
     border-radius: 53px;  
     background-color: #F7F7F7;
     font-family: Montserrat;
@@ -269,7 +273,7 @@
     border-radius: 60px;
   }
   
-  .mini__cart-2 {
+  .mini__cart_mob {
     justify-content: flex-start;
   }
   
@@ -277,7 +281,7 @@
     padding-left: 48px;
   }
   
-  .mini__opis_title {
+  .mini__game {
     padding-top: 48px;
     font-family: Montserrat;
     font-size: 48px;
@@ -297,7 +301,7 @@
     color: #202027;
   }
   
-  .mini__box_btn {
+  .mini__btn {
     margin-top: 36px;
     width: 247px;
     height: 66px;
@@ -313,7 +317,7 @@
     background-color: #202027;
   }
 
-  .mini__box_btn:hover {
+  .mini__btn:hover {
     color: #202027;
     background-color: #FFFFFF;
   }
