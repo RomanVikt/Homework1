@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 425px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -6,7 +6,7 @@
 
     .top {
         height: 700px;
-        background-image: url(img_star/Star_mob.bmp);
+        background-image: url(img_star/star_mob.png);
     
         &__content{
             padding-top: 147px;
@@ -124,6 +124,7 @@
 
     .footer {
         height: 100px;
+        margin-top: 170px;
 
         &__text  {
             padding-top: 40px;
