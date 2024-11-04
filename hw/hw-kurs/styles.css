@@ -461,17 +461,17 @@ html {
     padding-right: calc(50% - 393px);
   }
   .top {
-    width: 1350px;
+    width: 100%;
   }
   .about {
-    width: 1350px;
+    width: 100%;
   }
   .about__box {
     padding-left: 100px;
     padding-right: 100px;
   }
   .mini {
-    width: 1350px;
+    width: 100%;
   }
   .mini__title {
     padding-left: 100px;
@@ -481,22 +481,22 @@ html {
     padding-right: 100px;
   }
   .footer {
-    width: 1350px;
+    width: 100%;
   }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .top {
-    width: 1350px;
+    width: 100%;
   }
   .about {
-    width: 1350px;
+    width: 100%;
   }
   .about__box {
     padding-left: 100px;
     padding-right: 100px;
   }
   .mini {
-    width: 1350px;
+    width: 100%;
   }
   .mini__title {
     padding-left: 100px;
@@ -506,6 +506,6 @@ html {
     padding-right: 100px;
   }
   .footer {
-    width: 1350px;
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -6,11 +6,11 @@
     }
 
     .top {
-        width: 1350px;
+        width: 100%; // 1350px;
     }
 
     .about {
-        width: 1350px;
+        width: 100%; // 1350px;
     }
 
     .about__box {
@@ -19,7 +19,7 @@
     }
 
     .mini {
-        width: 1350px;
+        width: 100%; // 1350px;
     }
 
     .mini__title {
@@ -32,19 +32,18 @@
     }
 
     .footer {
-        width: 1350px;
+        width: 100%; // 1350px;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
 
     .top {
-        width: 1350px;
+        width: 100%; // 1350px;
     }
 
     .about {
-        width: 1350px;
-    
+        width: 100%; // 1350px;    
 
     &__box {
         padding-left: 100px;
@@ -53,7 +52,7 @@
     }
 
     .mini {
-        width: 1350px;
+        width: 100%; // 1350px;
     
 
     &__title {
@@ -66,7 +65,7 @@
     }
     }
     .footer {
-        width: 1350px;
+        width: 100%; // 1350px
     }
 
 } 
