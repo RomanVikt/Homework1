@@ -7,8 +7,8 @@
     .top {
         height: 700px;
         background-image: url(img_star/star_mob.png);
-    
-        &__content{
+
+        &__content {
             padding-top: 147px;
         }
 
@@ -20,7 +20,7 @@
             text-align: center;
         }
 
-        &__text {            
+        &__text {
             font-size: 16px;
             font-weight: 400;
             line-height: 19px;
@@ -29,20 +29,20 @@
 
         &__polosa {
             width: 1717px;
-            height: 51px;           
-            gap: 27px;            
+            height: 51px;
+            gap: 27px;
         }
 
         &__polosa_text {
-            height: 18px;            
+            height: 18px;
             font-size: 16px;
             font-weight: 700;
-            line-height: 18px;                        
-        } 
+            line-height: 18px;
+        }
 
         &__polosa_text-1 {
             padding-left: 24px;
-          }
+        }
 
         &__polosa_star {
             width: 19px;
@@ -55,13 +55,13 @@
             margin-top: 36px;
             width: 285px;
             font-size: 16px;
-            line-height: 23px;            
+            line-height: 23px;
         }
 
         &__btn:hover {
-        background-color: #202027;
-        color: #FFFFFF;
-        }    
+            background-color: #202027;
+            color: #FFFFFF;
+        }
     }
 
     .about {
@@ -69,25 +69,25 @@
     }
 
     .mini {
-        height: 3740px;   
-        background-image: none; 
-        
+        height: 3740px;
+        background-image: none;
+
         &__title {
             padding-top: 48px;
             padding-bottom: 48px;
             font-size: 40px;
             font-weight: 700;
-            line-height: 49px;          
+            line-height: 49px;
         }
 
-        &__cart {            
+        &__cart {
             flex-direction: column-reverse;
-        }  
+        }
 
         &__cart_mob {
             display: block;
-        }      
-        
+        }
+
         &__opis {
             padding-left: 29px;
         }
@@ -96,24 +96,24 @@
             padding-top: 29px;
             font-size: 32px;
             font-weight: 700;
-            line-height: 39px;            
+            line-height: 39px;
         }
 
-        &__text {  
-            padding-top: 16px;                  
+        &__text {
+            padding-top: 16px;
             font-size: 16px;
             font-weight: 400;
-            line-height: 19px;            
+            line-height: 19px;
         }
 
-        &__btn { 
+        &__btn {
             margin-top: 32px;
-            margin-bottom: 32px;           
+            margin-bottom: 32px;
             width: 285px;
-            height: 55px;         
+            height: 55px;
             font-size: 16px;
             font-weight: 600;
-            line-height: 23px;            
+            line-height: 23px;
         }
 
         &__img {
@@ -126,7 +126,7 @@
         height: 100px;
         margin-top: 170px;
 
-        &__text  {
+        &__text {
             padding-top: 40px;
             font-size: 16px;
             font-weight: 600;
