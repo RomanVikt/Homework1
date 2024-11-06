@@ -340,7 +340,7 @@ html {
   text-align: center;
 }
 
-@media (max-width: 768px) and (min-width: 426px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .center {
     padding-left: calc(50% - 393px);
     padding-right: calc(50% - 393px);
@@ -359,11 +359,15 @@ html {
     width: 100%;
   }
   .mini__title {
-    padding-left: 100px;
+    padding-left: 16px;
   }
   .mini__box {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .mini__img {
+    width: 100%;
+    height: 100%;
   }
   .footer {
     width: 100%;
@@ -400,11 +404,7 @@ html {
     padding-right: 16px;
   }
   .top {
-    height: 700px;
     background-image: url(img_star/star_mob.png);
-  }
-  .top__content {
-    padding-top: 147px;
   }
   .top__title {
     padding-left: 23px;
@@ -453,8 +453,9 @@ html {
     display: none;
   }
   .mini {
-    height: 3740px;
+    height: 100%;
     background-image: none;
+    padding-bottom: 48px;
   }
   .mini__title {
     padding-top: 48px;
@@ -499,7 +500,6 @@ html {
   }
   .footer {
     height: 100px;
-    margin-top: 170px;
   }
   .footer__text {
     padding-top: 40px;

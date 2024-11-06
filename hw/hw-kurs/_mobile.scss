@@ -5,12 +5,7 @@
     }
 
     .top {
-        height: 700px;
         background-image: url(img_star/star_mob.png);
-
-        &__content {
-            padding-top: 147px;
-        }
 
         &__title {
             padding-left: 23px;
@@ -69,9 +64,10 @@
     }
 
     .mini {
-        height: 3740px;
+        height: 100%;
         background-image: none;
-
+        padding-bottom: 48px;
+        
         &__title {
             padding-top: 48px;
             padding-bottom: 48px;
@@ -103,17 +99,17 @@
             padding-top: 16px;
             font-size: 16px;
             font-weight: 400;
-            line-height: 19px;
+            line-height: 19px;            
         }
 
         &__btn {
             margin-top: 32px;
-            margin-bottom: 32px;
+            margin-bottom: 32px;            
             width: 285px;
             height: 55px;
             font-size: 16px;
             font-weight: 600;
-            line-height: 23px;
+            line-height: 23px; 
         }
 
         &__img {
@@ -124,7 +120,6 @@
 
     .footer {
         height: 100px;
-        margin-top: 170px;
 
         &__text {
             padding-top: 40px;
