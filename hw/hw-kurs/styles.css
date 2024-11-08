@@ -131,7 +131,6 @@ html {
 }
 
 .about {
-  height: 1470px;
   background-image: url(img_star/Group1.png), url(img_star/Group2.png);
   background-repeat: no-repeat, no-repeat;
   background-position: center left, top right;
@@ -374,6 +373,10 @@ html {
   }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
+  .center {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .top {
     width: 100%;
   }
@@ -383,6 +386,15 @@ html {
   .about__box {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .about__cart {
+    flex-wrap: wrap;
+  }
+  .about__link_img {
+    width: 100%;
+  }
+  .about__link {
+    flex-direction: row;
   }
   .mini {
     width: 100%;
