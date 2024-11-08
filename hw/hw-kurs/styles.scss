@@ -137,6 +137,7 @@ html {
   background-repeat: no-repeat, no-repeat;
   background-position: center left, top right;
   background-color: #202027;
+  padding-bottom: 50px;
 }
 
 .about__box {
@@ -154,9 +155,7 @@ html {
   color: #FFFFFF;
 }
 
-.about__text {
-  width: 788px;
-  height: 96px;
+.about__text { 
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
@@ -247,7 +246,8 @@ html {
 }
 
 .mini {
-  height: 3500px;
+  padding-bottom: 20px;
+  height: 100%;
   background-image: url(img_star/stars3.png);
   background-repeat: no-repeat;
   background-color: #202027;
