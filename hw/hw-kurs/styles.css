@@ -13,6 +13,7 @@ html {
 }
 
 .top {
+  width: 100%;
   display: flex;
   height: 800px;
   background-color: #E1FF8F;
@@ -339,36 +340,6 @@ html {
   text-align: center;
 }
 
-@media (min-width: 476px) and (max-width: 768px) {
-  .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
-  }
-  .top {
-    width: 100%;
-  }
-  .about {
-    width: 100%;
-  }
-  .mini {
-    width: 100%;
-  }
-  .mini__title {
-    padding-left: 16px;
-  }
-  .mini__box {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .mini__img {
-    width: 50%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .footer {
-    width: 100%;
-  }
-}
 @media (max-width: 1024px) {
   .center {
     padding-left: 50px;
@@ -416,6 +387,67 @@ html {
     padding-top: 24px;
     font-size: 36px;
     line-height: normal;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .center {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .about {
+    width: 100%;
+  }
+  .about__link_text {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  .about__link_title {
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: normal;
+  }
+  .about__link_big {
+    height: 460px;
+  }
+  .about__link_small {
+    height: 460px;
+  }
+  .mini {
+    width: 100%;
+  }
+  .mini__title {
+    padding-left: 16px;
+  }
+  .mini__box {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .mini__img {
+    width: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .mini__game {
+    padding-top: 8px;
+    font-size: 20px;
+  }
+  .mini__text {
+    padding-top: 8px;
+    line-height: normal;
+    font-size: 16px;
+  }
+  .mini__btn {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  .mini__opis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .footer {
     width: 100%;
