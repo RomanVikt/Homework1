@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+
+    .center {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .top {
+        width: 100%; 
+    }
+
+    .about {
+        width: 100%; 
+        box-sizing: border-box;   
+
+    &__link_title {
+        font-size: 24px;
+    }
+
+    &__cart {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__link_img {
+        width: 100%;
+    }
+
+    &__link {
+        flex-direction: row;
+    }
+
+    &__link_small {
+        height: 551px;
+    }
+
+    &__link_big {
+        height: 551px;
+    }
+    }
+
+    .mini {
+        width: 100%; 
+        box-sizing: border-box;
+    
+    &__img {
+        width: 50%;
+        height: 50%;
+    }
+
+    &__text {
+        padding-top: 12px;
+        font-size: 20px;
+    }
+
+    &__game {
+        padding-top: 24px;
+        font-size: 36px;
+        line-height: normal;
+    }
+    }
+    .footer {
+        width: 100%; 
+    }
+    }
+     
+@media (max-width: 768px) {
+
+    .center {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .about {
+         width: 100%;  
+        
+    &__link_text {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    
+    &__link_title {
+        margin-top: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+        line-height: normal;
+    } 
+    
+    &__link_big {
+        height: 460px;
+    }
+
+    &__link_small {
+        height: 460px;
+    } 
+    }    
+    
+    .mini {
+        width: 100%;    
+        
+    &__title {
+        padding-left: 16px;
+    }
+    
+    &__box {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    &__img {
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    &__game {
+        padding-top: 8px;
+        font-size: 20px;
+
+    }
+
+    &__text {
+        padding-top: 8px;
+        line-height: normal;
+        font-size: 16px;
+    }
+
+    &__btn {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    &__opis {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    }
+    
+    .footer {
+        width: 100%; 
+    }
+    }
+    

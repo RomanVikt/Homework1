@@ -1,0 +1,110 @@
+@media (max-width: 475px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    background-image: url(img_star/star_mob.png);
+  }
+  .top__title {
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+  }
+  .top__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+  }
+  .top__polosa {
+    width: 1717px;
+    height: 51px;
+    gap: 27px;
+  }
+  .top__polosa_text {
+    height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  .top__polosa_text-1 {
+    padding-left: 24px;
+  }
+  .top__polosa_star {
+    width: 19px;
+    height: 19px;
+  }
+  .top__btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 36px;
+    width: 285px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .top__btn:hover {
+    background-color: #202027;
+    color: #FFFFFF;
+  }
+  .about {
+    display: none;
+  }
+  .mini {
+    height: 100%;
+    background-image: none;
+    padding-bottom: 48px;
+  }
+  .mini__title {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+  }
+  .mini__cart {
+    flex-direction: column-reverse;
+  }
+  .mini__cart_mob {
+    display: block;
+  }
+  .mini__opis {
+    padding-left: 29px;
+  }
+  .mini__game {
+    padding-top: 29px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .mini__text {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .mini__btn {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+  }
+  .mini__img {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=_mobile.css.map */
